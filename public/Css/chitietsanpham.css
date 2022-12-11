@@ -1,0 +1,245 @@
+.product-img {
+    position: relative;
+    border: 1px solid #eae8e8;
+    margin: auto !important;
+    width: 420px;
+    height: 420px;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+.image-main{
+    padding: 1rem !important;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+/* general-product-infor */
+.detail-product-infor {
+    margin-top: 1rem !important;
+    font-family: "Poppins", sans-serif;
+}
+.book-title{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 0px 8px;
+}
+.star-review{
+    margin: 0px 0px 8px;
+    font-size: 20px;
+    color: #ffbb00;
+}
+.publisher, .author{
+    display: inline-block;
+    margin-bottom: 1rem !important;
+}
+.publisher-name{
+    text-transform: capitalize;
+    font-weight: 550;
+}
+.author {
+    padding-inline-start: 6rem !important;
+}
+.author-name{
+    text-transform: capitalize;
+    font-weight: 550;
+}
+.price-book {
+    font-size: 30px;
+    margin-bottom: 1rem !important;
+    display: block;
+    position: relative;
+}
+.advice{
+    font-size: 14px;
+    margin-bottom: 1rem !important;
+}
+.quantity-book{
+    margin-bottom: 1rem !important;
+}
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+    border-width: 0.5px;
+    border-radius: 50%;
+    outline: none;
+}
+.quantity-btn:hover {
+    background-color: rgba(230, 230, 230, 0.952);
+}
+#quantity-input {
+    width: 40px;
+    height: 30px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+    border-width: 0.5px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+.order-btn{
+    margin-bottom: 1rem !important;
+}
+
+.detail-form{
+    width: 70% !important;
+}
+.product-detail{
+    margin-top: 1rem !important;
+}
+.card-header{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.book-content{
+    text-align: justify !important;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+/* .add, .buy{
+    width: 200px;
+    height: 40px;
+    margin: 4px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.add {
+    background-color: white;
+    border-color:#F5DF4D;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bold;
+    color:  #ffcc00
+}
+.buy {
+    background-color: #F5DF4D;
+    border-color:#F5DF4D;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bold;
+}
+.add:hover{
+    margin: 2px;
+    width: 220px;
+    height: 45px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.buy:hover{
+    margin: 2px;
+    width: 220px;
+    height: 45px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+} */
+.detail{
+    color: #777777;
+}   
+.line{
+    border-top: 0.5px rgb(241, 241, 241);
+}
+#title-comment {
+    margin: 15px 0px;
+    font-size: 20px;
+}
+#rating-point {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #F5DF4D;
+}
+.rating-star {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rating-star:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rating-star:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rating-star:not(:checked) > label:before {
+    content: '★ ';
+}
+.rating-star > input:checked ~ label {
+    color: #F5DF4D;    
+}
+.rating-star:not(:checked) > label:hover,
+.rating-star:not(:checked) > label:hover ~ label {
+    color: #F5DF4D;  
+}
+.rating-star > input:checked + label:hover,
+.rating-star > input:checked + label:hover ~ label,
+.rating-star > input:checked ~ label:hover,
+.rating-star > input:checked ~ label:hover ~ label,
+.rating-star > label:hover ~ input:checked ~ label {
+    color: #F5DF4D;
+}
+.rating-btn{
+    margin-right: 25px;
+    padding: 5px;
+    font-size: 15px;
+    color: #ffcc00;
+    border: solid #ffcc00;
+    border-width: 1px;
+    background-color: white;
+    outline: none;
+}
+.rating-btn:hover {
+    border: solid #ffbb00;
+    border-width: 1px;
+    border-radius: 8px;
+}
+.comment{
+    margin-top: 50px;
+}
+.member-cmt {
+    width: 60px;
+}
+.member-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.member-star {
+    font-size: 18px;
+    color: #F5DF4D;
+}
+.cmt-img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+.img-zoom-lens{
+    position: absolute;
+    visibility: hidden;
+    border: 1px solid #d4d4d4;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+}
+.img-zoom-result {
+    border: 1px solid #ffbb00;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1 !important;
+}

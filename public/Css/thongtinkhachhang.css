@@ -1,0 +1,107 @@
+.maincontent{
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin-bottom: 3rem !important;
+}
+/* SIDEBAR */
+.sidebar-ttkh{
+    width: 260px;
+    margin-right: 1rem !important;
+}
+.top-infor{
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem !important;
+    margin-bottom: 1rem !important;
+}
+.img-ttkh{
+    height: 60px;
+    width: 60px;
+    margin-right: 0.5rem !important;
+    border-radius: 50%;
+    max-width: 100%;
+}
+.name-ttkh{
+    flex: 1 1 0%;
+    font-size: 14px;
+}
+.top-infor .name-ttkh b{
+    font-size: 16px;
+    display: block; 
+}
+.sidebar-menu-ttkh{
+    padding-left: 0.5rem !important;
+}
+.sidebar-item a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+    padding-left: 1.5rem !important;
+    margin-bottom: 0.25rem !important;
+    height: 40px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.sidebar-menu-ttkh>.sidebar-item:hover{
+    background-color: lightgray;
+}
+.icon-ttkh{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    color: rgb(155, 155, 155);
+    margin-right: 1.25rem !important;
+}
+.sidebar-item>a>span{
+    font-size: 14px;
+}
+
+/* SHOW USER INFORMATION */
+.content-ttkh{
+    margin-bottom: 3rem !important;
+}
+.title-inner-ttkh{
+    color: rgb(74, 74, 74);
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 1.75rem!important;
+    margin-bottom: 1.45rem !important;
+}
+.main-info-ttkh{
+    font-size: 14px;
+    background-color: white;
+    padding: 2rem 1.5rem !important;
+}
+.form-check-label:hover{
+    cursor: pointer;
+}
+#gender-nam:hover, #gender-nu:hover{
+    cursor: pointer;
+}
+#gender-nam:checked, #gender-nu:checked{
+    cursor: pointer;
+    background-color:#ffc107;
+    border: 1px solid #ffc107;
+}
+.btn-update-ttkh{
+    font-size: 14px;
+    width: 176px;
+    height: 40px;
+    color: rgb(74, 74, 74);
+    background-color: rgb(253, 216, 53);
+}
+.order-history{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1rem !important;
+}
+.status-order{
+    padding: 5px !important;
+    font-size: 13px;
+    margin-bottom: 0.5rem !important;
+
+}
+.status-order:hover{
+    background-color: #212529!important; 
+}
+.table-order-history th, .table-order-history td{
+    padding: 0.1rem 0.25rem !important;
+}

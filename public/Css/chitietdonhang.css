@@ -1,0 +1,82 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.invoice-body {
+    margin: 2rem auto;
+    background-color: white;
+    height: auto;
+}
+
+.content-invoice {
+    width: 90%;
+    margin: 1.5rem auto !important;
+}
+
+.describe-invoice {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo-invoice img {
+    margin: .5rem auto;
+    width: 60px;
+    height: 60px;
+}
+
+.info-seller p {
+    margin-bottom: 0 !important;
+}
+
+.main-invoice-info {
+    border-radius: 5px;
+    padding: .5rem !important;
+    background-color: #f0f0f0;
+}
+
+.main-invoice-info .title-mii {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-invoice-info li {
+    list-style: none;
+}
+
+.change-status {
+    width: 145px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: .5rem;
+    padding-left: .5rem;
+    padding-right: 1.5rem;
+    text-transform: uppercase;
+}
+
+.table-ordered-product {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.total-invoice {
+    margin-top: 1rem !important;
+    float: right !important;
+    padding-right: 8px !important;
+}
+
+.general-price-custom {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 4px auto;
+}
+
+.general-price-custom .price-custom {
+    float: right !important;
+    color: gray;
+    margin-left: 85px;
+}
+
+.general-price-custom .price-custom.total {
+    color: green;
+    font-size: 16px;
+}

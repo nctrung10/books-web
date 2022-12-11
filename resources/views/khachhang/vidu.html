@@ -1,0 +1,126 @@
+<div class="mb-2">
+    <form action="{{ Route('khachhang.danhmucpricesort',) }}">
+        @csrf
+        <div class="row g-4 align-items-center">
+            <div class="col-auto">
+                <label class="col-form-label">Sắp Xếp:</label>
+            </div>
+            <div class="col-auto">
+                <label class="col-form-label">Giá Bán</label>
+            </div>
+            <div class="col-auto">
+                <select class="form-control" name="gia">
+                    <option value="1">Tăng</option>
+                    <option value="2">Giảm</option>
+                </select>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Sắp Xếp</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<ul class="list-group">
+    <li class="list-group-item disabled" aria-disabled="true">Giá</li>
+    <li class="list-group-item list-group-item-action">
+        <form action="{{ Route('khachhang.danhmucprice',$tenDM) }}">
+            <input type="hidden" name="start" value="0">
+            <input type="hidden" name="end" value="100000">
+            <button class="btn" type="submit"><i class="far fa-circle"></i> &ensp; 0đ - 100,000đ</button>
+        </form>
+    </li>
+    <li class="list-group-item list-group-item-action">
+        <form action=" {{ Route('khachhang.danhmucprice',$tenDM) }}">
+            <input type="hidden" name="start" value="100000">
+            <input type="hidden" name="end" value="200000">
+            <button class="btn" type="submit"><i class="far fa-circle"></i> &ensp; 100,000đ - 200,000đ</button>
+        </form>
+    </li>
+    <li class="list-group-item list-group-item-action">
+        <form action=" {{ Route('khachhang.danhmucprice',$tenDM) }}">
+            <input type="hidden" name="start" value="200000">
+            <input type="hidden" name="end" value="300000">
+            <button class="btn" type="submit"><i class="far fa-circle"></i> &ensp; 200,00đ - 300,000đ</button>
+        </form>
+    </li>
+</ul>
+
+<button type="button" class="btn ps-3 pe-0 header-cart">
+    <a class="nav-link text-center" aria-current="page" href="{{ route('giohang') }}">
+        <span style="font-size: 1.5rem; color: black;">
+            <i class="fas fa-cart-plus ps-3"></i>
+            <span class="badge rounded-pill cart-quantity">2</span>
+            <h6>Giỏ Hàng</h6>
+        </span>
+    </a>
+    <!-- Empty Cart: header-cart-list-empty-->
+    <div class="header-cart-list ">
+        <img src="/image/empty-cart.png" class="header-cart-empty-img">
+    <!-- Having Cart -->
+        <ul class="header-cart-list-item">
+            <li class="header-cart-item">
+                <img src="/image/biquyetdautuvakinhdoanhchungkhoan.jpg" class="header-cart-img">
+                <div class="header-cart-item-info">
+                    <div class="header-cart-item-above">
+                        <h5 class="header-cart-item-name">
+                            Bí Quyết Đầu Tư Và Kinh Doanh Chứng Khoán Của Các Tỷ Phú Warren Buffet & George Soros
+                        </h5>
+                    </div>
+                    <div class="header-cart-item-below">
+                        <span class="header-cart-item-price">126.000đ</span>
+                        <span class="header-cart-item-price-multiply">x</span>
+                        <span class="header-cart-item-quantity">1</span>
+                    </div>
+                </div>
+            </li>
+            <li class="header-cart-item">
+                <img src="/image/dacnhantam.jpg" class="header-cart-img">
+                <div class="header-cart-item-info">
+                    <div class="header-cart-item-above">
+                        <h5 class="header-cart-item-name">
+                            Đắc nhân tâm
+                        </h5>
+                    </div>
+                    <div class="header-cart-item-below">
+                        <span class="header-cart-item-price">54.000đ</span>
+                        <span class="header-cart-item-price-multiply">x</span>
+                        <span class="header-cart-item-quantity">1</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="header-cart-list-footer">
+            <div>
+                <span class="header-cart-list-footer-tt">Thành tiền:</span>
+                <span class="header-cart-list-footer-total">180.000đ</span>
+            </div>
+            <a href="{{ route('giohang') }}" class="btn btn-warning btn-sm m-2">Xem Chi Tiết</a>
+        </div>
+    </div>
+</button>
+
+<button type="button" class="btn px-0">
+    <a class="nav-link" aria-current="page" href="#">
+        <span class="d-flex flex-column pt-1 fs-4 text-dark">
+            <i class="fas fa-user pt-1"></i>
+            <span class="account-label">
+                <span class="text-capitalize">nguyễn chí trung</span>
+                <i class="fas fa-sort-down"></i>
+            </span>
+        </span>
+    </a>
+</button>
+@if ($errors->any())
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <ul>
+        @foreach ($errors->all() as $error)
+        <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+@endif
+value="{{ old('tenNN') }}"

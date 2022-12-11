@@ -1,0 +1,80 @@
+/* describe */
+.describe-login{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: justify !important;
+}
+/* Login Form */
+.form-login{
+    background-color: #f0f0f0;
+    border-radius: .3rem;
+}
+.form-login-content{
+    height: 500px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.form-login-title{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 1.5rem !important;
+    margin-top: 0.5rem !important;
+}
+#email_dn, #mk_dn{
+    height: 38px;
+    font-size: 13px;
+}
+.form-floating-dn{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+#dnhap, #dnhapfb{
+    width: 90%;
+    margin: auto;
+}
+#dnhapfb{
+    color: white;
+    background-color: rgb(59, 89, 152);
+}
+#dnhapfb:hover{
+    background-color: #4a69bd !important;
+}
+.sign-up{
+    font-size: 15px;
+}
+.badge{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.badge:hover{
+    color: white;
+    background-color: #eb4d4b !important;
+}
+#dnhap, #dnhapfb, #dnhapgg{
+    width: 90%;
+    margin: auto;
+}
+#dnhapfb {
+    display: flex;
+    color: white;
+    background-color: rgb(59, 89, 152);
+    justify-content: center;
+}
+#dnhapfb:hover {
+    background-color: #4a69bd !important;
+}
+.icon-login-social {
+    font-size: 23px;
+    padding-right: 0.5rem;
+}
+#dnhapgg {
+    display: flex;
+    color: white;
+    background-color: #EA4335;
+    justify-content: center;
+}
+#dnhapgg:hover{
+    background-color: #F35022 !important;
+}

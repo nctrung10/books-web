@@ -1,0 +1,35 @@
+body{
+    background-color: #f0f0f0;
+}
+.home-page{
+    color: black;
+    text-decoration: none;
+}
+.home-page:hover{
+    color: red !important;
+}
+.lb-name{
+    font-family: "Poppins", sans-serif;
+}
+.form-check-label:hover{
+    cursor: pointer;
+}
+.form-check-input:hover{
+    cursor: pointer;
+}
+.form-check-input:checked{
+    cursor: pointer;
+    background-color:#ffc107;
+    border: 1px solid #ffc107;
+}
+/* Button Đăng ký */
+#dky{
+    background-color: #ffc107;
+}
+#dky:hover{
+    background-color: gold;
+}
+.badge:hover{
+    color: white !important;
+    background-color: #ffc107 !important;
+}

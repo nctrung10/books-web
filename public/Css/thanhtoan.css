@@ -1,0 +1,72 @@
+/* breadcrumb */
+.back-cart{
+    color: black;
+    text-decoration: none;
+}
+.back-cart:hover{
+    color: red !important;
+}
+/* Content */
+    /* infor-form */
+    /*.transport{
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+     .fa-check-square{
+        font-size: 18px;
+        color: #ffc107;
+    }
+    .fa-check-square:hover{
+        cursor: pointer;
+    }
+    .describe-transport:hover{
+        cursor: pointer;
+    }
+    .form-check-label:hover{
+        cursor: pointer;
+    }
+    .form-check-input:hover{
+        cursor: pointer;
+    }
+    .form-check-input:checked{
+        cursor: pointer;
+        background-color:#ffc107;
+        border: 1px solid #ffc107;
+    } */
+
+    .line{
+        border: 0.1rem solid;
+    }
+    #hotenKH-TT, #sdtKH-TT, #emailKH-TT, #dcKH-TT{
+        height: 50px;
+    }
+    /* product-infor */
+    .checkout-product-info{
+        font-size: 13px;
+        font-family: "Poppins", sans-serif;
+    }
+    .product-img-pay img{
+        width: 85px;
+        height: 90px;
+    }
+    .checkout-product-info-name{
+        text-transform: capitalize;
+    }
+    .price-total-title{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .price-total-value{
+        float: right;
+        color: #ffc107;
+        font-weight: 600; 
+        font-size: 18px; 
+        font-family: "Poppins", sans-serif;
+    }
+/* Button Checkout */
+#ttoan{
+    text-transform: uppercase;
+}
+#ttoan:hover{
+    background-color: gold;
+}

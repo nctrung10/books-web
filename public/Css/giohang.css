@@ -1,0 +1,105 @@
+/* breadcrumb */
+.home_page{
+    text-decoration: none;
+}
+.home_page:hover{
+    color: red !important;
+}
+/* empty cart */
+.empty-cart{
+    background-color: #f0f0f0;
+    height: auto !important;
+}
+.empty-cart-content{
+    background-color: white;
+}
+.btn-empty{
+    width: 14rem;
+    height: 2rem;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ffc107;
+}
+.btn-empty:hover{
+    background-color: gold !important;
+}
+/* cart with products */
+.cart{
+    background-color: #f0f0f0;
+    height: auto !important;
+}
+.title-cart{
+    font-size: 20px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+.content{
+    background-color: #f0f0f0;  
+    margin-bottom: 20px !important;
+}
+.product-cart{
+    background-color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+.product-img-cart{
+    width: 8rem;
+    text-align: center;
+}
+.product-name{
+    width: 22rem;
+}
+.del-product{
+    text-decoration: none;
+    font-size: 14px;
+}
+.del-product:hover{
+    text-decoration: underline;
+}
+.input-quantity{
+    width: 60%;
+    min-width: 42px;
+    height: auto;
+}
+.badge-coupon{
+    font-size: 16px;
+    font-family: monospace;
+    color: black;
+    text-decoration: none; 
+    float:right;
+    width: 6rem;
+    height: auto;
+}
+.total-cart{
+    background-color: white;
+}
+.result-total{
+    font-size: 18px;
+    float: right;
+}
+.total-name{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.total{
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-checkout{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #ff9900;
+    
+}
+.btn-checkout:hover{
+    background-color: #ffc107;
+    color: white;
+
+}
